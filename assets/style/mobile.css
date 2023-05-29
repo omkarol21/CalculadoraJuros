@@ -1,0 +1,41 @@
+@media (max-width: 430px) {
+    #calculadora{
+        width: 400px;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 430px) {
+    #calculadora{
+        width: 345px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    #img {
+        height: 110px;
+    }
+
+    #button{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 320px) {
+    #calculadora{
+        width: 300px;
+    }
+
+    label{
+        font-size: 12px;
+    }
+
+    .btn{
+        font-size: 12px;
+    }
+}

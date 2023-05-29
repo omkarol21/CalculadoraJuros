@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/mobile.css">
     <!-- Links das fontes -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
@@ -17,7 +18,7 @@
     <div style="display: flex;
         justify-content: center;">
         <h1>Calculadora</h1>
-        <img style="height: 155px;" src="./assets/img/ilustracao.png" alt="">
+        <img id="img" src="./assets/img/ilustracao.png" alt="">
     </div>
     
 
@@ -37,9 +38,7 @@
                 <p class="text" id="text"></p>
             </div>
 
-            <div id="button" style="display: flex;
-                justify-content: center;
-                gap: 10px;">
+            <div id="button">
                 <button class="btn" id="simples">Calcular juros simples</button>
                 <button class="btn" id="composto">Calcular juros composto</button>
             </div>
