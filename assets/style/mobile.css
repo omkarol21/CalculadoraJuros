@@ -21,6 +21,10 @@
         height: 110px;
     }
 
+    label{
+        font-size: 14px;
+    }
+
     #button{
         flex-direction: column;
     }
