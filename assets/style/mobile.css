@@ -1,3 +1,13 @@
+@media (max-width: 615px) {
+    #calculadora{
+        width: 550px;
+    }
+
+    #button{
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 430px) {
     #calculadora{
         width: 400px;
@@ -5,6 +15,10 @@
 
     h1 {
         font-size: 45px;
+    }
+
+    #button{
+        flex-direction: column;
     }
 }
 
